@@ -1,0 +1,42 @@
+body {
+  font-style: normal;
+  font-size:100%;
+  font-family: "Source Sans Pro", sans-serif, helvetica;
+  background-color: #000
+}
+
+#container {
+  height:231px;
+  width:620px;
+  float:right;
+  margin-top:162px;
+  margin-right:85px;
+}
+
+h1 {
+  font-size:4.5em;
+  color: #3873b3;
+}
+
+h2 {
+  font-size:2.5em;
+  color:#FFFFFF;
+}
+
+#main h2 {
+  margin-bottom:20px;
+}
+
+.right {
+  text-align:right;
+}
+
+#list li{
+  font-size:1.5em;
+  color:#728581;
+  margin-bottom:23px;
+}
+
+#list li:hover{
+  color:#3873b3;
+}
