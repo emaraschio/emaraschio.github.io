@@ -1,42 +1,42 @@
 body {
   font-style: normal;
-  font-size:100%;
+  font-size: 100%;
   font-family: "Source Sans Pro", sans-serif, helvetica;
-  background-color: #000
+  background-color: #1C1B17;
 }
 
 #container {
-  height:231px;
-  width:620px;
-  float:right;
-  margin-top:162px;
-  margin-right:85px;
+  height: 231px;
+  width: 620px;
+  float: right;
+  margin-top: 162px;
+  margin-right: 85px;
 }
 
 h1 {
-  font-size:4em;
-  color: #3873b3;
+  font-size: 4em;
+  color: #00A0E3;
 }
 
 h2 {
-  font-size:2.5em;
-  color:#FFFFFF;
+  font-size: 2.5em;
+  color: #FFFFFF;
 }
 
 #main h2 {
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .right {
-  text-align:right;
+  text-align: right;
 }
 
-#list li{
-  font-size:1.5em;
-  color:#728581;
-  margin-bottom:23px;
+#list li {
+  font-size: 1.5em;
+  color: #00A0E3;
+  margin-bottom: 23px;
 }
 
-#list li:hover{
-  color:#3873b3;
+#list li:hover {
+  color: #FFFFFF;
 }
