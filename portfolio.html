@@ -28,16 +28,27 @@
     <div id="container">
       <div id="main">
         <h1 class="right"><a href="mailto:e@maraschio.com" target="_blank">Ezequiel Maraschio</a></h1>
-        <h2 class="right">Enthusiastic Software Developer</h2>
+        <h2 class="right">Portfolio</h2>
       </div>
       <div id="content" class="right">
-        <ul id="list">
-          <li><a href="https://ar.linkedin.com/in/emaraschio" target="_blank">LinkedIn</a></li>
-          <li><a href="https://twitter.com/emaraschio" target="_blank">Twitter</a></li>
-          <li><a href="https://github.com/emaraschio" target="_blank">Github</a></li>
-          <li><a href="/portfolio.html">Portfolio</a></li>
-        </ul>
+        <ul id="portfolio"></ul>
       </div>
     </div>
+
+    <script id="portfolio-item-template" type="text/x-handlebars-template">
+      <li>
+        <a href="{{url}}" target="_blank">{{name}}</a>
+        <p>
+          Tools: {{tools}}
+        </p>
+        <p>
+          Duties: {{duties}}
+        </p>
+      </li>
+    </script>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+    <script type="text/javascript" src="js/load_portfolio.js"></script>
  </body>
 </html>
