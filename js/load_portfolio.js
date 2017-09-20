@@ -3,7 +3,7 @@ $(function() {
     {
       "name"   : "Dering Hall",
       "url"    : "https://deringhall.com/",
-      "techs"  : "Ruby on Rails, React, PostgreSQL, Redis, Heroku",
+      "techs"  : "Ruby on Rails, React, PostgreSQL, Elasticsearch, Redis, Docker, Heroku",
       "duties" : "Development, Operations",
       "year"   : 2017
     },
@@ -17,28 +17,28 @@ $(function() {
     {
       "name"   : "Hubally Ad Tech Solutions & RTB",
       "url"    : "http://hubally.com/",
-      "techs"  : "Python, Flask, Angular, MySQL, Redis, AWS",
+      "techs"  : "Python, Flask, Angular, MySQL, Redis, Vagrant, AWS",
       "duties" : "Development, Product Discovery, Operations",
       "year"   : 2016
     },
     {
       "name"   : "Progow",
       "url"    : "https://progow.com/",
-      "techs"  : "Ruby on Rails, Angular, PostgreSQL, Redis, Heroku",
+      "techs"  : "Ruby on Rails, Angular, PostgreSQL, Redis, Vagrant, Heroku",
       "duties" : "Development, Product Discovery, Operations",
       "year"   : 2015
     },
     {
       "name"   : "TotalCoin: Developer Tools",
       "url"    : "https://github.com/totalcoin",
-      "techs"  : "Ruby, PHP, Magento, OsCommerce, WP eCommerce",
+      "techs"  : "Ruby, PHP, Magento, OsCommerce, WP eCommerce, Vagrant",
       "duties" : "Development, Product Discovery",
       "year"   : 2015
     },
     {
       "name"   : "E-planning: Android SDK",
       "url"    : "https://e-planning.net/",
-      "techs"  : "Android",
+      "techs"  : "Android SDK, Eclipse",
       "duties" : "Development, Product Discovery",
       "year"   : 2014
     },
