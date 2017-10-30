@@ -36,16 +36,57 @@ $(function() {
       "year"   : 2015
     },
     {
+      "name"   : "Transcuro",
+      "url"    : "https://transcuro.com/",
+      "techs"  : "PHP, Laravel 4, JS, MySQL, NGINX",
+      "duties" : "Development, Operations",
+      "year"   : 2015
+    },
+    {
       "name"   : "E-planning: Android SDK",
       "url"    : "https://e-planning.net/",
       "techs"  : "Android SDK, Eclipse",
       "duties" : "Development, Product Discovery",
       "year"   : 2014
     },
+    {
+      "name"   : "BrandCaptcha",
+      "url"    : "http://www.pontamedia.com/brandCaptcha",
+      "techs"  : "PHP, Symfony2, AWS, MongoDB, MySQL, NGINX",
+      "duties" : "Development, Product Discovery, Operations",
+      "year"   : 2014
+    },
+    {
+      "name"   : "Andreani",
+      "url"    : "https://www.andreani.com/",
+      "techs"  : ".NET ASP MVC 3, jQuery, Bootstrap",
+      "duties" : "Development",
+      "year"   : 2013
+    },
+    {
+      "name"   : "MaxCDN Services",
+      "url"    : "https://docs.maxcdn.com/",
+      "techs"  : "PHP, Ruby, jQuery, Bootstrap, MySQL, NGINX",
+      "duties" : "Development, Operations",
+      "year"   : 2013
+    },
+    {
+      "name"   : "Par8o",
+      "url"    : "https://learn.par8o.com/",
+      "techs"  : "Ruby, RoR 3, jQuery, Bootstrap, MySQL, Heroku",
+      "duties" : "Development",
+      "year"   : 2012
+    },
+    {
+      "name"   : "Sungevity",
+      "url"    : "http://www.sungevity.com/",
+      "techs"  : "PHP, Cake, JS MVC, MySQL",
+      "duties" : "Development",
+      "year"   : 2011
+    },
   ]);
 
   var projects = JSON.parse(data);
-
   var source   = $("#portfolio-item-template").html();
   var template = Handlebars.compile(source);
 
