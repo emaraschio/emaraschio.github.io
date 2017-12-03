@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
- <head>
+
+<head>
     <title>Ezequiel Maraschio - Enthusiastic Software Developer</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="Ezequiel Maraschio - Enthusiastic Software Developer">
@@ -14,43 +15,48 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
 
     <script>
-      console.log("_   /|\n\\'o.O'\n=(___)=\n   U\n\nHelloooooooo!.");
+        console.log("_   /|\n\\'o.O'\n=(___)=\n   U\n\nHelloooooooo!.");
     </script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-12728257-5"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments)};
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-12728257-5');
+        function gtag() {
+            dataLayer.push(arguments)
+        };
+        gtag('js', new Date());
+
+        gtag('config', 'UA-12728257-5');
     </script>
- </head>
- <body>
+</head>
+
+<body>
     <div id="container">
-      <div id="main">
-        <h1 class="right">Portfolio</h1>
-        <h2 class="right">Latest Projects</h2>
-      </div>
-      <div id="content" class="right">
-        <ul id="portfolio"></ul>
-      </div>
+        <div id="main">
+            <h1 class="right">Portfolio</h1>
+            <h2 class="right">Latest Projects</h2>
+        </div>
+        <div id="content" class="right">
+            <ul id="portfolio"></ul>
+        </div>
     </div>
 
     <script id="portfolio-item-template" type="text/x-handlebars-template">
-      <li>
-        <a href="{{url}}" target="_blank">{{name}}</a>
-        <p>
-          Tools: {{tools}}
-        </p>
-        <p>
-          Duties: {{duties}}
-        </p>
-      </li>
+        <li>
+            <a href="{{url}}" target="_blank">{{name}}</a>
+            <p>
+                Tools: {{tools}}
+            </p>
+            <p>
+                Duties: {{duties}}
+            </p>
+        </li>
     </script>
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
     <script type="text/javascript" src="js/load_portfolio.js"></script>
- </body>
+</body>
+
 </html>
