@@ -1,6 +1,20 @@
 $(function() {
   var data = JSON.stringify([
     {
+      "name": "Cove | Keep migraines at bay",
+      "url": "https://www.withcove.com/",
+      "techs": "Ruby on Rails, TypeScript, React, GraphQL, Cypress, PostgreSQL, Docker, Terraform, AWS",
+      "duties": "Development, Operations",
+      "year": 2018
+    },
+    {
+      "name": "Keeps | Hair Loss Treatment for Men",
+      "url": "https://www.keeps.com/",
+      "techs": "Ruby on Rails, TypeScript, React, GraphQL, Cypress, PostgreSQL, Docker, Terraform, AWS",
+      "duties": "Development, Operations",
+      "year": 2018
+    },
+    {
       "name": "HealthCheck - Active Monitoring",
       "url": "https://github.com/instedd/active-monitoring",
       "techs": "Elixir, Phoenix, React, Redux, Docker, Material Design, Webpack",
