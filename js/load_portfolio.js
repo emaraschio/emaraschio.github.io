@@ -1,5 +1,12 @@
 $(function() {
-  var data = JSON.stringify([
+  const data = JSON.stringify([
+    {
+      "name": "Evens | Best Treatment for Acid Reflux Relief",
+      "url": "https://evens.com/",
+      "techs": "Ruby on Rails, TypeScript, React, GraphQL, Cypress, Jasmine, Enzyme",
+      "duties": "Development",
+      "year": 2019
+    },
     {
       "name": "Cove | Keep migraines at bay",
       "url": "https://www.withcove.com/",
@@ -112,20 +119,20 @@ $(function() {
       "duties": "Development",
       "year": 2011
     },
-  ]);
+  ])
 
-  var projects = JSON.parse(data);
-  var source = $("#portfolio-item-template").html();
-  var template = Handlebars.compile(source);
+  let projects = JSON.parse(data)
+  let source = $("#portfolio-item-template").html()
+  let template = Handlebars.compile(source)
 
-  for (var key in projects) {
-    var context = {
-        name: projects[key].name,
-        url: projects[key].url,
-        tools: projects[key].techs,
-        duties: projects[key].duties
-    };
-    var html = template(context);
-    $('#portfolio').append(html);
-  }
-});
+  projects.forEach(project => {
+    let context = {
+      name: project.name,
+      url: project.url,
+      tools: project.techs,
+      duties: project.duties
+    }
+    let html = template(context)
+    $('#portfolio').append(html)
+  })
+})
