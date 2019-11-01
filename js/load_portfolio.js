@@ -121,18 +121,18 @@ $(function() {
     },
   ])
 
-  let projects = JSON.parse(data)
-  let source = $("#portfolio-item-template").html()
-  let template = Handlebars.compile(source)
+  const projects = JSON.parse(data)
+  const source = $("#portfolio-item-template").html()
+  const template = Handlebars.compile(source)
 
   projects.forEach(project => {
-    let context = {
+    const context = {
       name: project.name,
       url: project.url,
       tools: project.techs,
       duties: project.duties
     }
-    let html = template(context)
-    $('#portfolio').append(html)
+    const html = template(context)
+    $('#portfolio-items').append(html)
   })
 })

@@ -5,15 +5,6 @@ body {
   background-color: #1C1B17;
 }
 
-#container {
-  height: 240px;
-  width: 620px;
-  float: right;
-  margin-top: 60px;
-  margin-right: 80px;
-  margin-bottom: 300px;
-}
-
 h1 {
   font-size: 4em;
   color: #00A0E3;
@@ -24,39 +15,76 @@ h2 {
   color: #FFFFFF;
 }
 
-#main h2 {
-  margin-bottom: 20px;
-}
-
-.right {
-  text-align: right;
-}
-
-
-#list li {
-  font-size: 1.5em;
-  margin-bottom: 20px;
-}
-
 a {
   color: #00A0E3;
+  cursor: pointer;
 }
 
 a:hover {
   color: #FFFFFF;
 }
 
-#portfolio li p {
-  font-size: 1.1em;
+li p {
+  font-size: 1em;
   color: #FFFFFF;
 }
 
-#portfolio li a {
+.workshops-title {
+  margin-bottom: 12px;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+.content li {
   font-size: 1.5em;
+  margin-bottom: 20px;
 }
 
-#portfolio li {
-  margin-top: 12px;
-  margin-bottom: 24px;
+.grid-container {
+  display: grid;
+  grid-template-columns: .2fr 2fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "spacer content";
 }
 
+.content {
+  text-align: right;
+  margin-top: 5%;
+  margin-right: 5%;
+  grid-area: content;
+}
+
+.spacer {
+  grid-area: space;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 2.3em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  .content h2 {
+    margin-top: 8px;
+    margin-bottom: 12px;
+  }
+
+  .content li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+
+  li p {
+    font-size: .8em;
+    color: #FFFFFF;
+  }
+
+  li a {
+    font-size: 1em;
+  }
+}
