@@ -44,9 +44,6 @@ li p {
 
 .grid-container {
   display: grid;
-  grid-template-columns: .2fr 2fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "spacer content";
 }
 
 .content {
@@ -54,10 +51,6 @@ li p {
   margin-top: 5%;
   margin-right: 5%;
   grid-area: content;
-}
-
-.spacer {
-  grid-area: space;
 }
 
 @media only screen and (max-width: 767px) {
