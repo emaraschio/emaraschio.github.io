@@ -1,6 +1,13 @@
 $(function() {
   const data = JSON.stringify([
     {
+      "name": "Tapercito | Delivery y Take Away without extra costs",
+      "url": "https://tapercito.com/",
+      "techs": "Ruby on Rails, TypeScript, React, GraphQL, Next.js",
+      "duties": "Development, Operations",
+      "year": 2021
+    },
+    {
       "name": "Evens | Best Treatment for Acid Reflux Relief",
       "url": "https://evens.com/",
       "techs": "Ruby on Rails, TypeScript, React, GraphQL, Cypress, Jasmine, Enzyme",
@@ -126,13 +133,12 @@ $(function() {
   const template = Handlebars.compile(source)
 
   projects.forEach(project => {
-    const context = {
+    const html = template({
       name: project.name,
       url: project.url,
       tools: project.techs,
       duties: project.duties
-    }
-    const html = template(context)
+    })
     $('#portfolio-items').append(html)
   })
 })
